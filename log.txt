@@ -1,0 +1,474 @@
+strace: Process 1978 attached with 10 threads
+[pid  1989] 22:53:18.030321 futex(0x7f28d00c0978, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+[pid  1985] 22:53:18.030449 futex(0x7f28d007cd7c, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+[pid  1986] 22:53:18.030514 futex(0x7f28d72870c0, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 0, NULL, 0xffffffff <unfinished ...>
+[pid  1987] 22:53:18.030561 restart_syscall(<... resuming interrupted futex ...> <unfinished ...>
+[pid  1984] 22:53:18.030614 futex(0x7f28d0078378, FUTEX_WAIT_PRIVATE, 0, NULL <unfinished ...>
+[pid  1990] 22:53:18.030702 restart_syscall(<... resuming interrupted futex ...> <unfinished ...>
+[pid  1980] 22:53:18.030785 read(0,  <unfinished ...>
+[pid  1988] 22:53:18.030831 restart_syscall(<... resuming interrupted futex ...> <unfinished ...>
+[pid  1983] 22:53:18.030873 restart_syscall(<... resuming interrupted futex ...> <unfinished ...>
+[pid  1978] 22:53:18.030914 futex(0x7f28d7edf9d0, FUTEX_WAIT, 1980, NULL <unfinished ...>
+[pid  1990] 22:53:18.057034 <... restart_syscall resumed> ) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:18.057090 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:18.057156 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999155}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:18.107518 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:18.107747 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49998033}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:18.158489 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:18.158628 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999081}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:18.209453 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:18.209615 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999326}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:18.259914 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:18.260027 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999407}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:18.311733 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:18.311855 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999351}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:18.362131 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:18.362419 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999318}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:18.412954 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:18.413119 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999321}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:18.463449 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:18.463652 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999248} <unfinished ...>
+[pid  1983] 22:53:18.505906 <... restart_syscall resumed> ) = -1 ETIMEDOUT (Connection timed out)
+[pid  1983] 22:53:18.506017 futex(0x7f28d0070728, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1983] 22:53:18.506116 futex(0x7f28d0070778, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=999999147} <unfinished ...>
+[pid  1990] 22:53:18.516742 <... futex resumed> ) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:18.516948 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:18.517062 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999141}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:18.567495 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:18.567632 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49998891}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:18.618225 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:18.618341 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999094}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:18.668582 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:18.668712 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999161}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:18.724441 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:18.724558 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999142}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:18.774797 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:18.775072 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999137}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:18.828112 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:18.828278 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999122}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:18.879034 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:18.879150 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999012}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:18.930130 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:18.930467 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49998071}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:18.981302 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:18.982543 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49998441}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:19.033343 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:19.033484 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49998877}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:19.084319 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:19.084446 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999101}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:19.137275 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:19.137455 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999099}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:19.187679 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:19.187853 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999074}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:19.238299 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:19.238537 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49997320}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:19.288825 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:19.288959 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49998881}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:19.339353 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:19.339494 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999147}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:19.389766 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:19.389906 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49998945}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:19.440953 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:19.441143 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999044}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:19.491651 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:19.491773 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999128} <unfinished ...>
+[pid  1983] 22:53:19.506717 <... futex resumed> ) = -1 ETIMEDOUT (Connection timed out)
+[pid  1983] 22:53:19.506815 futex(0x7f28d0070728, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1983] 22:53:19.506920 futex(0x7f28d0070778, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=999998960} <unfinished ...>
+[pid  1990] 22:53:19.544777 <... futex resumed> ) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:19.544877 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:19.545007 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49997385}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:19.595441 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:19.595652 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49998086}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:19.646465 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:19.646601 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999036}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:19.696990 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:19.697251 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49997767}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:19.751577 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:19.751693 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49998910}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:19.802478 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:19.802861 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49996553}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:19.853445 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:19.853559 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999055}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:19.904052 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:19.904167 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999027}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:19.956599 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:19.956716 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999035}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:20.008502 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:20.008702 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49997111}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:20.059802 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:20.059936 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999144}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:20.112862 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:20.113147 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999201}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:20.163664 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:20.163788 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999088}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:20.214914 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:20.215277 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999044}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:20.265732 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:20.266089 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49997162}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:20.317246 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:20.317366 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49998997}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:20.367793 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:20.367911 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999026}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:20.418445 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:20.418560 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49998810}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:20.470603 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:20.470726 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999059} <unfinished ...>
+[pid  1983] 22:53:20.507105 <... futex resumed> ) = -1 ETIMEDOUT (Connection timed out)
+[pid  1983] 22:53:20.509570 futex(0x7f28d0070728, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1983] 22:53:20.509718 futex(0x7f28d0070778, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=999998835} <unfinished ...>
+[pid  1990] 22:53:20.522694 <... futex resumed> ) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:20.522791 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:20.522892 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49998881}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:20.573282 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:20.573396 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999020} <unfinished ...>
+[pid  1987] 22:53:20.603099 <... restart_syscall resumed> ) = -1 ETIMEDOUT (Connection timed out)
+[pid  1988] 22:53:20.603193 <... restart_syscall resumed> ) = -1 ETIMEDOUT (Connection timed out)
+[pid  1988] 22:53:20.603294 futex(0x7f28d00b3a28, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+[pid  1987] 22:53:20.603360 futex(0x7f28d00b1b28, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1988] 22:53:20.603441 <... futex resumed> ) = 0
+[pid  1987] 22:53:20.603491 futex(0x7f28d00b1b78, FUTEX_WAIT_PRIVATE, 0, {tv_sec=4, tv_nsec=999998949} <unfinished ...>
+[pid  1988] 22:53:20.603564 futex(0x7f28d00b3a78, FUTEX_WAIT_PRIVATE, 0, {tv_sec=4, tv_nsec=999999774} <unfinished ...>
+[pid  1990] 22:53:20.625454 <... futex resumed> ) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:20.625558 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:20.625663 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999001}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:20.676378 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:20.676510 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999031}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:20.727033 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:20.727338 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=23997314}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:20.757012 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:20.757127 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=20999325}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:20.778999 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:20.779133 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999110}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:20.829775 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:20.829891 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999198}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:20.880587 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:20.880734 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49996382}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:20.930993 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:20.931139 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999016}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:20.981933 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:20.982115 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49997977}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:21.032894 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:21.033655 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49996670}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:21.084879 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:21.084994 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999019}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:21.135795 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:21.135919 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49998835}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:21.186531 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:21.186647 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999000}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:21.237438 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:21.237628 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999086}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:21.288294 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:21.288406 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999156}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:21.338961 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:21.339080 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999082}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:21.389561 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:21.389674 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999323}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:21.440269 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:21.440480 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999092}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:21.490818 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:21.490932 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49998771} <unfinished ...>
+[pid  1983] 22:53:21.510311 <... futex resumed> ) = -1 ETIMEDOUT (Connection timed out)
+[pid  1983] 22:53:21.510438 futex(0x7f28d0070728, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1983] 22:53:21.510535 futex(0x7f28d0070778, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=999999031} <unfinished ...>
+[pid  1990] 22:53:21.541392 <... futex resumed> ) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:21.541487 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:21.541586 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999103}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:21.592284 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:21.592400 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999046}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:21.642634 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:21.642767 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49998768}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:21.693046 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:21.693234 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999021}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:21.743651 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:21.743845 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999026}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:21.794263 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:21.794613 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49998973}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:21.844938 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:21.845073 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999047}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:21.895675 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:21.895841 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999365}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:21.946721 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:21.946919 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49998905}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:21.997394 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:21.997508 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999060}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:22.047900 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:22.048060 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999054}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:22.098406 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:22.098711 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49998922}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:22.149116 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:22.149222 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49998907}) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:22.199456 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:22.199554 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49998820} <unfinished ...>
+[pid  1980] 22:53:22.209538 <... read resumed> "\n", 8192) = 1
+[pid  1980] 22:53:22.209628 fstat(0, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+[pid  1980] 22:53:22.209722 ioctl(0, FIONREAD, [0]) = 0
+[pid  1980] 22:53:22.209873 fstat(0, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+[pid  1980] 22:53:22.209949 ioctl(0, FIONREAD, [0]) = 0
+[pid  1980] 22:53:22.210251 openat(AT_FDCWD, "/dev/null", O_WRONLY) = 5
+[pid  1980] 22:53:22.210987 dup2(5, 0)  = 0
+[pid  1980] 22:53:22.211063 close(5)    = 0
+[pid  1980] 22:53:22.211317 lseek(3, 30363251, SEEK_SET) = 30363251
+[pid  1980] 22:53:22.212472 read(3, "PK\3\4\n\0\0\10\0\0\357\201\223K{)\3347\244\v\0\0\244\v\0\0\37\0\0\0", 30) = 30
+[pid  1980] 22:53:22.212601 lseek(3, 30363312, SEEK_SET) = 30363312
+[pid  1980] 22:53:22.212706 read(3, "\312\376\272\276\0\0\0004\0\202\n\0\37\0?\t\0 \0@\n\0A\0B\n\0\10\0C\v\0"..., 2980) = 2980
+[pid  1980] 22:53:22.213026 lseek(3, 30360844, SEEK_SET) = 30360844
+[pid  1980] 22:53:22.213157 read(3, "PK\3\4\n\0\0\10\0\0\357\201\223KE)\24\311\22\t\0\0\22\t\0\0007\0\0\0", 30) = 30
+[pid  1980] 22:53:22.213271 lseek(3, 30360929, SEEK_SET) = 30360929
+[pid  1980] 22:53:22.213396 read(3, "\312\376\272\276\0\0\0004\0{\n\0\37\0004\n\0\23\0005\7\0006\n\0\3\0005\n\0007\0"..., 2322) = 2322
+[pid  1980] 22:53:22.213604 lseek(3, 30359945, SEEK_SET) = 30359945
+[pid  1980] 22:53:22.213717 read(3, "PK\3\4\n\0\0\10\0\0\357\201\223KC_}\34,\3\0\0,\3\0\0009\0\0\0", 30) = 30
+[pid  1980] 22:53:22.213846 lseek(3, 30360032, SEEK_SET) = 30360032
+[pid  1980] 22:53:22.213949 read(3, "\312\376\272\276\0\0\0004\0#\n\0\5\0\25\n\0\23\0\26\n\0\4\0\27\7\0\30\7\0\33\7"..., 812) = 812
+[pid  1980] 22:53:22.214141 lseek(3, 49083049, SEEK_SET) = 49083049
+[pid  1980] 22:53:22.214254 read(3, "PK\3\4\n\0\0\10\0\0\360\201\223K\36\223\2665\206\6\0\0\206\6\0\0*\0\0\0", 30) = 30
+[pid  1980] 22:53:22.214411 lseek(3, 49083121, SEEK_SET) = 49083121
+[pid  1980] 22:53:22.214514 read(3, "\312\376\272\276\0\0\0004\0Y\n\0\34\0,\n\0-\0.\7\0/\7\0000\n\0\4\0001\n"..., 1670) = 1670
+[pid  1980] 22:53:22.214740 lseek(3, 49109605, SEEK_SET) = 49109605
+[pid  1980] 22:53:22.214869 read(3, "PK\3\4\n\0\0\10\0\0\360\201\223K\213\374\255\261}\r\0\0}\r\0\0(\0\0\0", 30) = 30
+[pid  1980] 22:53:22.214980 lseek(3, 49109675, SEEK_SET) = 49109675
+[pid  1980] 22:53:22.215083 read(3, "\312\376\272\276\0\0\0004\0\205\n\0*\0D\7\0E\n\0\2\0F\7\0G\n\0\4\0H\7"..., 3453) = 3453
+[pid  1980] 22:53:22.215248 lseek(3, 49230323, SEEK_SET) = 49230323
+[pid  1980] 22:53:22.215382 read(3, "PK\3\4\n\0\0\10\0\0\360\201\223Kn\330U\217\2255\0\0\2255\0\0'\0\0\0", 30) = 30
+[pid  1980] 22:53:22.215494 lseek(3, 49230392, SEEK_SET) = 49230392
+[pid  1980] 22:53:22.215599 read(3, "\312\376\272\276\0\0\0004\1\337\7\0\343\n\0\204\0\344\7\0\345\10\0\346\n\0\347\0\350\n\0\3"..., 13717) = 13717
+[pid  1980] 22:53:22.215885 lseek(3, 49051281, SEEK_SET) = 49051281
+[pid  1980] 22:53:22.216133 read(3, "PK\3\4\n\0\0\10\0\0\353\201\223K\371\16\10;*\t\0\0*\t\0\0+\0\0\0", 30) = 30
+[pid  1980] 22:53:22.216321 lseek(3, 49051354, SEEK_SET) = 49051354
+[pid  1980] 22:53:22.216432 read(3, "\312\376\272\276\0\0\0004\0b\n\0\33\0008\7\0009\n\0\2\0:\10\0;\n\0\2\0<\n"..., 2346) = 2346
+[pid  1980] 22:53:22.216590 lseek(3, 30476727, SEEK_SET) = 30476727
+[pid  1980] 22:53:22.216699 read(3, "PK\3\4\n\0\0\10\0\0\342\201\223K\2708\316\5k\"\0\0k\"\0\0*\0\0\0", 30) = 30
+[pid  1980] 22:53:22.216843 lseek(3, 30476799, SEEK_SET) = 30476799
+[pid  1980] 22:53:22.216949 read(3, "\312\376\272\276\0\0\0004\1-\n\0\f\0\250\n\0\251\0\252\7\0\253\10\0\254\n\0\3\0\255\n"..., 8811) = 8811
+[pid  1980] 22:53:22.217432 lseek(3, 49107363, SEEK_SET) = 49107363
+[pid  1980] 22:53:22.217556 read(3, "PK\3\4\n\0\0\10\0\0\360\201\223KGJ2p\204\10\0\0\204\10\0\0 \0\0\0", 30) = 30
+[pid  1980] 22:53:22.217672 lseek(3, 49107425, SEEK_SET) = 49107425
+[pid  1980] 22:53:22.217778 read(3, "\312\376\272\276\0\0\0004\0c\n\0\26\0006\7\0007\n\0\2\0008\t\0\27\0009\n\0:\0"..., 2180) = 2180
+[pid  1980] 22:53:22.217966 lseek(3, 49221665, SEEK_SET) = 49221665
+[pid  1980] 22:53:22.218077 read(3, "PK\3\4\n\0\0\10\0\0\360\201\223K\207[\370@\225\27\0\0\225\27\0\0\37\0\0\0", 30) = 30
+[pid  1980] 22:53:22.218189 lseek(3, 49221726, SEEK_SET) = 49221726
+[pid  1980] 22:53:22.218309 read(3, "\312\376\272\276\0\0\0004\1\17\t\0007\0\217\n\0D\0\220\t\0007\0\221\n\0\25\0\222\n\0"..., 6037) = 6037
+[pid  1980] 22:53:22.218516 lseek(3, 30356205, SEEK_SET) = 30356205
+[pid  1980] 22:53:22.218627 read(3, "PK\3\4\n\0\0\10\0\0\342\201\223K\27\26)\16=\4\0\0=\4\0\0\36\0\0\0", 30) = 30
+[pid  1980] 22:53:22.218739 lseek(3, 30356265, SEEK_SET) = 30356265
+[pid  1980] 22:53:22.218861 read(3, "\312\376\272\276\0\0\0004\0+\n\0\3\0&\7\0'\7\0(\7\0)\1\0\6<init"..., 1085) = 1085
+[pid  1980] 22:53:22.219113 lseek(3, 49254773, SEEK_SET) = 49254773
+[pid  1980] 22:53:22.219227 read(3, "PK\3\4\n\0\0\10\0\0\360\201\223K\240@\305Y|8\0\0|8\0\0\31\0\0\0", 30) = 30
+[pid  1980] 22:53:22.219357 lseek(3, 49254828, SEEK_SET) = 49254828
+[pid  1980] 22:53:22.219463 read(3, "\312\376\272\276\0\0\0004\1\336\7\0\363\n\0|\0\364\t\0008\0\365\t\0008\0\366\n\0008\0"..., 14460) = 14460
+[pid  1980] 22:53:22.219709 lseek(3, 49056801, SEEK_SET) = 49056801
+[pid  1980] 22:53:22.219834 read(3, "PK\3\4\n\0\0\10\0\0\353\201\223KQ\353`\350&\10\0\0&\10\0\0\35\0\0\0", 30) = 30
+[pid  1980] 22:53:22.219948 lseek(3, 49056860, SEEK_SET) = 49056860
+[pid  1980] 22:53:22.220051 read(3, "\312\376\272\276\0\0\0004\0[\n\0\25\0004\n\0\24\0005\7\0006\n\0007\0008\n\0\24\0"..., 2086) = 2086
+[pid  1980] 22:53:22.220549 lseek(3, 49297242, SEEK_SET) = 49297242
+[pid  1980] 22:53:22.220689 read(3, "PK\3\4\n\0\0\10\0\0\353\201\223K\243\240\322\22^\n\0\0^\n\0\0\25\0\0\0", 30) = 30
+[pid  1980] 22:53:22.220837 lseek(3, 49297293, SEEK_SET) = 49297293
+[pid  1980] 22:53:22.220959 read(3, "\312\376\272\276\0\0\0004\0q\n\0\31\0<\t\0\30\0=\n\0\4\0>\7\0?\n\0\4\0"..., 2654) = 2654
+[pid  1980] 22:53:22.221256 lseek(3, 49246180, SEEK_SET) = 49246180
+[pid  1980] 22:53:22.221410 read(3, "PK\3\4\n\0\0\10\0\0\360\201\223Kku\372\335N!\0\0N!\0\0%\0\0\0", 30) = 30
+[pid  1980] 22:53:22.222310 lseek(3, 49246247, SEEK_SET) = 49246247
+[pid  1980] 22:53:22.222474 read(3, "\312\376\272\276\0\0\0004\1\31\n\0/\0\311\n\0\312\0\313\n\0\314\0\315\n\0\314\0\316\n\0"..., 8526) = 8526
+[pid  1980] 22:53:22.223155 lseek(3, 49245428, SEEK_SET) = 49245428
+[pid  1980] 22:53:22.223262 read(3, "PK\3\4\n\0\0\10\0\0\360\201\223KK\236\31\314\253\2\0\0\253\2\0\0'\0\0\0", 30) = 30
+[pid  1980] 22:53:22.223388 lseek(3, 49245497, SEEK_SET) = 49245497
+[pid  1980] 22:53:22.223485 read(3, "\312\376\272\276\0\0\0004\0\"\n\0\6\0\25\10\0\26\n\0\27\0\30\n\0\5\0\31\7\0\32\7"..., 683) = 683
+[pid  1980] 22:53:22.223728 stat("/usr/local/jdk1.8.0_161/jre/lib/amd64/libnio.so", {st_mode=S_IFREG|0755, st_size=93308, ...}) = 0
+[pid  1980] 22:53:22.223904 lstat("/usr", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  1980] 22:53:22.224013 lstat("/usr/local", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  1980] 22:53:22.224113 lstat("/usr/local/jdk1.8.0_161", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  1980] 22:53:22.224213 lstat("/usr/local/jdk1.8.0_161/jre", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  1980] 22:53:22.224352 lstat("/usr/local/jdk1.8.0_161/jre/lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  1980] 22:53:22.224469 lstat("/usr/local/jdk1.8.0_161/jre/lib/amd64", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+[pid  1980] 22:53:22.224592 lstat("/usr/local/jdk1.8.0_161/jre/lib/amd64/libnio.so", {st_mode=S_IFREG|0755, st_size=93308, ...}) = 0
+[pid  1980] 22:53:22.224764 stat("/usr/local/jdk1.8.0_161/jre/lib/amd64/libnio.so", {st_mode=S_IFREG|0755, st_size=93308, ...}) = 0
+[pid  1980] 22:53:22.224921 stat("/usr/local/jdk1.8.0_161/jre/lib/amd64/libnio.so", {st_mode=S_IFREG|0755, st_size=93308, ...}) = 0
+[pid  1980] 22:53:22.225091 openat(AT_FDCWD, "/usr/local/jdk1.8.0_161/jre/lib/amd64/libnio.so", O_RDONLY) = 5
+[pid  1980] 22:53:22.225517 fstat(5, {st_mode=S_IFREG|0755, st_size=93308, ...}) = 0
+[pid  1980] 22:53:22.225615 read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320k\0\0\0\0\0\0"..., 4096) = 4096
+[pid  1980] 22:53:22.225688 lseek(5, 69632, SEEK_SET) = 69632
+[pid  1980] 22:53:22.225747 read(5, "nsym\0.dynstr\0.gnu.version\0.gnu.v"..., 4096) = 4096
+[pid  1980] 22:53:22.225837 lseek(5, 4096, SEEK_SET) = 4096
+[pid  1980] 22:53:22.225896 read(5, "\222\0\0\0\0\0\0\0\223\0\0\0\0\0\0\0\224\0\0\0\0\0\0\0\225\0\0\0\0\0\0\0"..., 4096) = 4096
+[pid  1980] 22:53:22.225960 read(5, "Y\0\0\0\0\0\0\0\355\0\0\0\22\0\0\0\0\0\0\0\0\0\0\0\241\0\0\0\0\0\0\0"..., 4096) = 4096
+[pid  1980] 22:53:22.226024 read(5, "P\314\0\0\0\0\0\0\254\0\0\0\0\0\0\0\302\27\0\0\22\0\r\0\340\264\0\0\0\0\0\0"..., 4096) = 4096
+[pid  1980] 22:53:22.226087 lseek(5, 69632, SEEK_SET) = 69632
+[pid  1980] 22:53:22.226144 read(5, "nsym\0.dynstr\0.gnu.version\0.gnu.v"..., 4096) = 4096
+[pid  1980] 22:53:22.226209 lseek(5, 12288, SEEK_SET) = 12288
+[pid  1980] 22:53:22.226266 read(5, "P\314\0\0\0\0\0\0\254\0\0\0\0\0\0\0\302\27\0\0\22\0\r\0\340\264\0\0\0\0\0\0"..., 4096) = 4096
+[pid  1980] 22:53:22.226344 read(5, "tsockopt\0Java_sun_nio_ch_Inherit"..., 4096) = 4096
+[pid  1980] 22:53:22.226408 read(5, "_UnixNativeDispatcher_unlink0\0un"..., 4096) = 4096
+[pid  1980] 22:53:22.226470 lseek(5, 69632, SEEK_SET) = 69632
+[pid  1980] 22:53:22.226527 read(5, "nsym\0.dynstr\0.gnu.version\0.gnu.v"..., 4096) = 4096
+[pid  1980] 22:53:22.226592 lseek(5, 65536, SEEK_SET) = 65536
+[pid  1980] 22:53:22.226649 read(5, "\6B\216\3E\215\4E\214\5H\203\6\0\0\0$\0\0\0\304\25\0\0\250\312\377\377\256\0\0\0"..., 4096) = 4096
+[pid  1980] 22:53:22.226712 read(5, "nsym\0.dynstr\0.gnu.version\0.gnu.v"..., 4096) = 4096
+[pid  1980] 22:53:22.226775 lseek(5, 73728, SEEK_SET) = 73728
+[pid  1980] 22:53:22.226846 lseek(5, 73728, SEEK_SET) = 73728
+[pid  1980] 22:53:22.226904 read(5, "\330\333\0\0\0\0\0\0\0\0\0\0\0\0\0\0:\4\0\0\1\2\361\377\320\6!\0\0\0\0\0"..., 4096) = 4096
+[pid  1980] 22:53:22.228382 read(5, "\216\26\0\0\22\0\0\0\0\0\0\0\0\0\0\0%\0\0\0\0\0\0\0\240\26\0\0\22\0\r\0"..., 4096) = 4096
+[pid  1980] 22:53:22.228479 lseek(5, 69632, SEEK_SET) = 69632
+[pid  1980] 22:53:22.228535 read(5, "nsym\0.dynstr\0.gnu.version\0.gnu.v"..., 4096) = 4096
+[pid  1980] 22:53:22.228595 lseek(5, 77824, SEEK_SET) = 77824
+[pid  1980] 22:53:22.228647 read(5, "\216\26\0\0\22\0\0\0\0\0\0\0\0\0\0\0%\0\0\0\0\0\0\0\240\26\0\0\22\0\r\0"..., 4096) = 4096
+[pid  1980] 22:53:22.228705 read(5, "d.6075\0dtor_idx.6077\0frame_dummy"..., 8192) = 8192
+[pid  1980] 22:53:22.228764 read(5, "t0\0pread64@@GLIBC_2.2.5\0handleSo"..., 4096) = 3196
+[pid  1980] 22:53:22.228869 lseek(5, 69632, SEEK_SET) = 69632
+[pid  1980] 22:53:22.228924 read(5, "nsym\0.dynstr\0.gnu.version\0.gnu.v"..., 4096) = 4096
+[pid  1980] 22:53:22.228983 lseek(5, 0, SEEK_SET) = 0
+[pid  1980] 22:53:22.229036 read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320k\0\0\0\0\0\0"..., 4096) = 4096
+[pid  1980] 22:53:22.229098 close(5)    = 0
+[pid  1980] 22:53:22.229171 openat(AT_FDCWD, "/usr/local/jdk1.8.0_161/jre/lib/amd64/libnio.so", O_RDONLY|O_CLOEXEC) = 5
+[pid  1980] 22:53:22.229240 read(5, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320k\0\0\0\0\0\0"..., 832) = 832
+[pid  1980] 22:53:22.229329 fstat(5, {st_mode=S_IFREG|0755, st_size=93308, ...}) = 0
+[pid  1980] 22:53:22.229411 mmap(NULL, 2165928, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 5, 0) = 0x7f28a0dee000
+[pid  1980] 22:53:22.229473 mprotect(0x7f28a0dff000, 2093056, PROT_NONE) = 0
+[pid  1980] 22:53:22.229542 mmap(0x7f28a0ffe000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 5, 0x10000) = 0x7f28a0ffe000
+[pid  1980] 22:53:22.229657 close(5)    = 0
+[pid  1980] 22:53:22.229889 lseek(3, 49193977, SEEK_SET) = 49193977
+[pid  1980] 22:53:22.229956 read(3, "PK\3\4\n\0\0\10\0\0\360\201\223K\6R\230\245>\27\0\0>\27\0\0#\0\0\0", 30) = 30
+[pid  1980] 22:53:22.230022 lseek(3, 49194042, SEEK_SET) = 49194042
+[pid  1980] 22:53:22.230080 read(3, "\312\376\272\276\0\0\0004\0\374\n\0=\0\217\7\0\220\n\0\2\0\217\n\0\221\0\222\n\0\221\0"..., 5950) = 5950
+[pid  1980] 22:53:22.230212 lseek(3, 30467412, SEEK_SET) = 30467412
+[pid  1980] 22:53:22.230354 read(3, "PK\3\4\n\0\0\10\0\0\353\201\223K\266\244\232Y\274\1\0\0\274\1\0\0001\0\0\0", 30) = 30
+[pid  1980] 22:53:22.230415 lseek(3, 30467491, SEEK_SET) = 30467491
+[pid  1980] 22:53:22.230474 read(3, "\312\376\272\276\0\0\0004\0\21\7\0\16\7\0\17\7\0\20\1\0\5owner\1\0)()"..., 444) = 444
+[pid  1980] 22:53:22.230571 lseek(3, 30456500, SEEK_SET) = 30456500
+[pid  1980] 22:53:22.230638 read(3, "PK\3\4\n\0\0\10\0\0\342\201\223KT\21<T\236\1\0\0\236\1\0\0001\0\0\0", 30) = 30
+[pid  1980] 22:53:22.230711 lseek(3, 30456579, SEEK_SET) = 30456579
+[pid  1980] 22:53:22.230774 read(3, "\312\376\272\276\0\0\0004\0\24\7\0\22\7\0\23\1\0\20lastModifiedT"..., 414) = 414
+[pid  1980] 22:53:22.231169 lseek(3, 49213566, SEEK_SET) = 49213566
+[pid  1980] 22:53:22.231246 read(3, "PK\3\4\n\0\0\10\0\0\360\201\223K\24\224?_\200\3\0\0\200\3\0\0(\0\0\0", 30) = 30
+[pid  1980] 22:53:22.231381 lseek(3, 49213636, SEEK_SET) = 49213636
+[pid  1980] 22:53:22.231447 read(3, "\312\376\272\276\0\0\0004\0+\n\0\t\0\36\7\0\37\n\0\2\0\36\n\0 \0!\t\0\2\0"..., 896) = 896
+[pid  1980] 22:53:22.231575 lseek(3, 49244109, SEEK_SET) = 49244109
+[pid  1980] 22:53:22.231909 read(3, "PK\3\4\n\0\0\10\0\0\360\201\223K\340;\7\264\352\4\0\0\352\4\0\0\37\0\0\0", 30) = 30
+[pid  1980] 22:53:22.232272 lseek(3, 49244170, SEEK_SET) = 49244170
+[pid  1980] 22:53:22.232375 read(3, "\312\376\272\276\0\0\0004\0F\n\0\20\0+\t\0\17\0,\n\0-\0.\t\0\17\0/\t\0"..., 1258) = 1258
+[pid  1980] 22:53:22.232727 getcwd("/home/osboxes/NetBeansProjects/ThomasLacasse_OS_Project_1", 4097) = 58
+[pid  1980] 22:53:22.235896 lseek(3, 58679122, SEEK_SET) = 58679122
+[pid  1980] 22:53:22.236058 read(3, "PK\3\4\n\0\0\10\0\0\341\201\223K\350\27\203mK]\0\0K]\0\0\22\0\0\0", 30) = 30
+[pid  1980] 22:53:22.236180 lseek(3, 58679170, SEEK_SET) = 58679170
+[pid  1980] 22:53:22.236266 read(3, "\312\376\272\276\0\0\0004\2\364\7\1\304\t\0\1\1\305\t\0\1\1\306\t\0\1\1\307\t\0\1\1"..., 23883) = 23883
+[pid  1980] 22:53:22.237052 lseek(3, 58670130, SEEK_SET) = 58670130
+[pid  1980] 22:53:22.240458 read(3, "PK\3\4\n\0\0\10\0\0\341\201\223K\2013\37)\351\"\0\0\351\"\0\0\31\0\0\0", 30) = 30
+[pid  1980] 22:53:22.240556 lseek(3, 58670185, SEEK_SET) = 58670185
+[pid  1980] 22:53:22.240640 read(3, "\312\376\272\276\0\0\0004\1h\7\0\263\t\0y\0\264\n\0z\0\265\t\0y\0\266\t\0y\0"..., 8937) = 8937
+[pid  1980] 22:53:22.241155 lseek(3, 30351912, SEEK_SET) = 30351912
+[pid  1980] 22:53:22.241256 read(3, "PK\3\4\n\0\0\10\0\0\342\201\223KAV\357\317s\0\0\0s\0\0\0\36\0\0\0", 30) = 30
+[pid  1980] 22:53:22.241411 lseek(3, 30351972, SEEK_SET) = 30351972
+[pid  1980] 22:53:22.241497 read(3, "\312\376\272\276\0\0\0004\0\7\7\0\5\7\0\6\1\0\nSourceFile\1\0\17"..., 115) = 115
+[pid  1980] 22:53:22.241667 lseek(3, 30429845, SEEK_SET) = 30429845
+[pid  1980] 22:53:22.241759 read(3, "PK\3\4\n\0\0\10\0\0\354\201\223Ku>,8'\4\0\0'\4\0\0&\0\0\0", 30) = 30
+[pid  1980] 22:53:22.241896 lseek(3, 30429913, SEEK_SET) = 30429913
+[pid  1980] 22:53:22.241981 read(3, "\312\376\272\276\0\0\0004\0002\t\0\4\0$\n\0%\0&\7\0\25\7\0'\n\0\16\0(\n"..., 1063) = 1063
+[pid  1980] 22:53:22.242168 lseek(3, 30390073, SEEK_SET) = 30390073
+[pid  1980] 22:53:22.242260 read(3, "PK\3\4\n\0\0\10\0\0\357\201\223K\265\216i\363lo\0\0lo\0\0\31\0\0\0", 30) = 30
+[pid  1980] 22:53:22.242397 lseek(3, 30390128, SEEK_SET) = 30390128
+[pid  1980] 22:53:22.242482 read(3, "\312\376\272\276\0\0\0004\3\217\7\1\300\n\0\351\1\301\v\0002\1\302\n\1\303\1\304\22\0\0\1"..., 28524) = 28524
+[pid  1980] 22:53:22.243009 lseek(3, 49163006, SEEK_SET) = 49163006
+[pid  1980] 22:53:22.243123 read(3, "PK\3\4\n\0\0\10\0\0\360\201\223K\27\357t\301r\37\0\0r\37\0\0\35\0\0\0", 30) = 30
+[pid  1980] 22:53:22.243214 lseek(3, 49163065, SEEK_SET) = 49163065
+[pid  1980] 22:53:22.243297 read(3, "\312\376\272\276\0\0\0004\0013\7\0u\n\0Q\0v\n\0R\0w\n\0x\0y\n\0z\0"..., 8050) = 8050
+[pid  1980] 22:53:22.243555 lseek(3, 49160295, SEEK_SET) = 49160295
+[pid  1980] 22:53:22.243646 read(3, "PK\3\4\n\0\0\10\0\0\360\201\223K\0010\221\5\223\2\0\0\223\2\0\0\37\0\0\0", 30) = 30
+[pid  1980] 22:53:22.243737 lseek(3, 49160356, SEEK_SET) = 49160356
+[pid  1980] 22:53:22.243820 read(3, "\312\376\272\276\0\0\0004\0\"\n\0\6\0\25\10\0\26\n\0\27\0\30\n\0\5\0\31\7\0\32\7"..., 659) = 659
+[pid  1980] 22:53:22.244084 stat("/usr/local/jdk1.8.0_161/jre/lib/amd64/libnio.so", {st_mode=S_IFREG|0755, st_size=93308, ...}) = 0
+[pid  1980] 22:53:22.244228 lseek(3, 49161015, SEEK_SET) = 49161015
+[pid  1980] 22:53:22.244316 read(3, "PK\3\4\n\0\0\10\0\0\360\201\223K\16#\262\7\206\7\0\0\206\7\0\0#\0\0\0", 30) = 30
+[pid  1980] 22:53:22.244470 lseek(3, 49161080, SEEK_SET) = 49161080
+[pid  1980] 22:53:22.244554 read(3, "\312\376\272\276\0\0\0004\0X\n\0\26\0001\7\0003\n\0\2\0001\t\0\2\0004\t\0005\0"..., 1926) = 1926
+[pid  1980] 22:53:22.244733 lseek(3, 49145116, SEEK_SET) = 49145116
+[pid  1980] 22:53:22.244824 read(3, "PK\3\4\n\0\0\10\0\0\353\201\223K4\351}\233\370\10\0\0\370\10\0\0\36\0\0\0", 30) = 30
+[pid  1980] 22:53:22.244965 lseek(3, 49145176, SEEK_SET) = 49145176
+[pid  1980] 22:53:22.245048 read(3, "\312\376\272\276\0\0\0004\0t\n\0\35\0=\7\0>\n\0\2\0?\t\0\7\0@\n\0\33\0"..., 2296) = 2296
+[pid  1980] 22:53:22.245234 lseek(3, 49143707, SEEK_SET) = 49143707
+[pid  1980] 22:53:22.245326 read(3, "PK\3\4\n\0\0\10\0\0\353\201\223K\256\266\250\217F\5\0\0F\5\0\0\35\0\0\0", 30) = 30
+[pid  1980] 22:53:22.245476 lseek(3, 49143766, SEEK_SET) = 49143766
+[pid  1980] 22:53:22.245558 read(3, "\312\376\272\276\0\0\0004\0H\t\0\r\0,\n\0\16\0-\n\0.\0/\t\0\r\0000\t\0"..., 1350) = 1350
+[pid  1980] 22:53:22.245714 lseek(3, 49143115, SEEK_SET) = 49143115
+[pid  1980] 22:53:22.245864 read(3, "PK\3\4\n\0\0\10\0\0\353\201\223K\207\321\265\370\t\2\0\0\t\2\0\0)\0\0\0", 30) = 30
+[pid  1980] 22:53:22.245964 lseek(3, 49143186, SEEK_SET) = 49143186
+[pid  1980] 22:53:22.246049 read(3, "\312\376\272\276\0\0\0004\0\"\n\0\6\0\22\t\0\5\0\23\n\0\24\0\25\n\0\26\0\27\7\0"..., 521) = 521
+[pid  1980] 22:53:22.246355 stat("/home/osboxes/Documents/CS451-Project1/in/in.txt", {st_mode=S_IFREG|0644, st_size=6344, ...}) = 0
+[pid  1980] 22:53:22.246538 lstat("/home/osboxes/Documents/CS451-Project1/out/out.txt", {st_mode=S_IFREG|0644, st_size=6344, ...}) = 0
+[pid  1980] 22:53:22.246720 unlink("/home/osboxes/Documents/CS451-Project1/out/out.txt") = 0
+[pid  1980] 22:53:22.246961 openat(AT_FDCWD, "/home/osboxes/Documents/CS451-Project1/in/in.txt", O_RDONLY) = 5
+[pid  1980] 22:53:22.247077 openat(AT_FDCWD, "/home/osboxes/Documents/CS451-Project1/out/out.txt", O_WRONLY|O_CREAT|O_EXCL, 0100644) = 6
+[pid  1980] 22:53:22.247221 read(5, "Speak to Me \n\n\"I've been mad for"..., 8192) = 6344
+[pid  1980] 22:53:22.247318 write(6, "Speak to Me \n\n\"I've been mad for"..., 6344) = 6344
+[pid  1980] 22:53:22.247523 read(5, "", 8192) = 0
+[pid  1980] 22:53:22.247650 close(6)    = 0
+[pid  1980] 22:53:22.247763 close(5)    = 0
+[pid  1980] 22:53:22.247956 write(1, "Banana Muffins.", 15) = 15
+[pid  1980] 22:53:22.248143 write(1, "\n", 1) = 1
+[pid  1980] 22:53:22.249667 mmap(0x7f28d7ddf000, 12288, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f28d7ddf000
+[pid  1980] 22:53:22.249841 rt_sigprocmask(SIG_SETMASK, [QUIT],  <unfinished ...>
+[pid  1990] 22:53:22.249982 <... futex resumed> ) = -1 ETIMEDOUT (Connection timed out)
+[pid  1990] 22:53:22.250029 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:22.250120 futex(0x7f28d00c5978, FUTEX_WAIT_PRIVATE, 0, {tv_sec=0, tv_nsec=49999566} <unfinished ...>
+[pid  1980] 22:53:22.250188 <... rt_sigprocmask resumed> NULL, 8) = 0
+[pid  1980] 22:53:22.250249 sched_getaffinity(1980, 32, [0]) = 8
+[pid  1980] 22:53:22.250421 sched_getaffinity(1980, 32, [0]) = 8
+[pid  1980] 22:53:22.250528 gettid()    = 1980
+[pid  1980] 22:53:22.250626 rt_sigprocmask(SIG_BLOCK, NULL, [QUIT], 8) = 0
+[pid  1980] 22:53:22.250727 rt_sigprocmask(SIG_UNBLOCK, [HUP ILL BUS FPE SEGV USR2 TERM], NULL, 8) = 0
+[pid  1980] 22:53:22.250829 rt_sigprocmask(SIG_BLOCK, [QUIT], NULL, 8) = 0
+[pid  1980] 22:53:22.250979 mmap(0x7f28d7ddf000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f28d7ddf000
+[pid  1980] 22:53:22.251094 mprotect(0x7f28d7ddf000, 12288, PROT_NONE) = 0
+[pid  1980] 22:53:22.251254 lseek(3, 60759467, SEEK_SET) = 60759467
+[pid  1980] 22:53:22.251402 read(3, "PK\3\4\n\0\0\10\0\0\357\201\223K\377\361:\232\217\v\0\0\217\v\0\0\30\0\0\0", 30) = 30
+[pid  1980] 22:53:22.251525 lseek(3, 60759521, SEEK_SET) = 60759521
+[pid  1980] 22:53:22.251622 read(3, "\312\376\272\276\0\0\0004\0u\n\0 \0N\t\0\22\0O\t\0\22\0P\t\0\22\0Q\7\0"..., 2959) = 2959
+[pid  1980] 22:53:22.251839 lseek(3, 60759031, SEEK_SET) = 60759031
+[pid  1980] 22:53:22.252217 read(3, "PK\3\4\n\0\0\10\0\0\357\201\223KS:\0044y\1\0\0y\1\0\0\35\0\0\0", 30) = 30
+[pid  1980] 22:53:22.252324 lseek(3, 60759090, SEEK_SET) = 60759090
+[pid  1980] 22:53:22.252527 read(3, "\312\376\272\276\0\0\0004\0\25\n\0\3\0\16\n\0\4\0\16\7\0\20\7\0\22\1\0\6<in"..., 377) = 377
+[pid  1980] 22:53:22.252728 futex(0x7f28d00c5978, FUTEX_WAKE_PRIVATE, 1) = 1
+[pid  1990] 22:53:22.252837 <... futex resumed> ) = 0
+[pid  1990] 22:53:22.252946 futex(0x7f28d00c5928, FUTEX_WAIT_PRIVATE, 2, NULL <unfinished ...>
+[pid  1980] 22:53:22.253037 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 1
+[pid  1990] 22:53:22.253132 <... futex resumed> ) = 0
+[pid  1990] 22:53:22.253190 futex(0x7f28d00c5928, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1990] 22:53:22.253300 madvise(0x7f28c04cd000, 1028096, MADV_DONTNEED) = 0
+[pid  1990] 22:53:22.253450 exit(0)     = ?
+[pid  1990] 22:53:22.253596 +++ exited with 0 +++
+[pid  1980] 22:53:22.253663 futex(0x7f28d72870c0, FUTEX_WAKE_PRIVATE, 1 <unfinished ...>
+[pid  1986] 22:53:22.256505 <... futex resumed> ) = 0
+[pid  1980] 22:53:22.256564 <... futex resumed> ) = 1
+[pid  1986] 22:53:22.256692 mmap(0x7f28c08d1000, 12288, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f28c08d1000
+[pid  1986] 22:53:22.256800 rt_sigprocmask(SIG_SETMASK, [QUIT], NULL, 8) = 0
+[pid  1986] 22:53:22.256957 madvise(0x7f28c08d1000, 1028096, MADV_DONTNEED) = 0
+[pid  1986] 22:53:22.257068 exit(0)     = ?
+[pid  1986] 22:53:22.257162 +++ exited with 0 +++
+[pid  1980] 22:53:22.257212 mmap(0x7f28d7ddf000, 12288, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f28d7ddf000
+[pid  1980] 22:53:22.257307 futex(0x7f28d0070778, FUTEX_WAKE_PRIVATE, 1) = 1
+[pid  1983] 22:53:22.257437 <... futex resumed> ) = 0
+[pid  1983] 22:53:22.257498 futex(0x7f28d0070728, FUTEX_WAIT_PRIVATE, 2, NULL <unfinished ...>
+[pid  1980] 22:53:22.257558 futex(0x7f28d0070728, FUTEX_WAKE_PRIVATE, 1) = 1
+[pid  1983] 22:53:22.257637 <... futex resumed> ) = 0
+[pid  1983] 22:53:22.257682 futex(0x7f28d0070728, FUTEX_WAKE_PRIVATE, 1) = 0
+[pid  1983] 22:53:22.257768 mprotect(0x7f28d7ef3000, 4096, PROT_READ) = 0
+[pid  1983] 22:53:22.257852 mprotect(0x7f28d7ef3000, 4096, PROT_READ|PROT_WRITE) = 0
+[pid  1983] 22:53:22.257986 mprotect(0x7f28d7ef4000, 4096, PROT_NONE) = 0
+[pid  1983] 22:53:22.258094 madvise(0x7f28c0eb0000, 1028096, MADV_DONTNEED) = 0
+[pid  1983] 22:53:22.258180 exit(0)     = ?
+[pid  1983] 22:53:22.258271 +++ exited with 0 +++
+[pid  1980] 22:53:22.258326 rt_sigprocmask(SIG_SETMASK, [QUIT], NULL, 8) = 0
+[pid  1980] 22:53:22.258494 unlink("/tmp/hsperfdata_osboxes/1978") = 0
+[pid  1980] 22:53:22.258621 madvise(0x7f28d7ddf000, 1028096, MADV_DONTNEED) = 0
+[pid  1980] 22:53:22.258717 exit(0)     = ?
+[pid  1980] 22:53:22.258816 +++ exited with 0 +++
+[pid  1978] 22:53:22.258860 <... futex resumed> ) = 0
+[pid  1978] 22:53:22.259015 exit_group(0) = ?
+[pid  1989] 22:53:22.259153 <... futex resumed>) = ?
+[pid  1988] 22:53:22.259248 <... futex resumed>) = ?
+[pid  1985] 22:53:22.259337 <... futex resumed>) = ?
+[pid  1987] 22:53:22.259451 <... futex resumed>) = ?
+[pid  1984] 22:53:22.259510 <... futex resumed>) = ?
+[pid  1989] 22:53:22.259580 +++ exited with 0 +++
+[pid  1985] 22:53:22.259647 +++ exited with 0 +++
+[pid  1988] 22:53:22.259712 +++ exited with 0 +++
+[pid  1984] 22:53:22.259777 +++ exited with 0 +++
+[pid  1987] 22:53:22.259842 +++ exited with 0 +++
+22:53:22.261609 +++ exited with 0 +++
